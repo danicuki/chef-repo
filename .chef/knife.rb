@@ -9,3 +9,6 @@ chef_server_url          "https://api.opscode.com/organizations/appextras"
 cache_type               'BasicFile'
 cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
 cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_copyright      "Daniel Cukier"
+cookbook_email          "danicuki@gmail.com"
+cookbook_licence        "apachev2"
